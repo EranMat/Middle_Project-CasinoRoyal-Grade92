@@ -9,7 +9,7 @@ GO
 EXEC USP_Regisration 'efrat','eFgcg54','efrat','shapira','ceasarea','Israel','efishapira@gmail.com', 'female','12-01-90'
 
 --QA test for register procedure- same username
-EXEC USP_Regisration 'efrat','eFgcg54','Liat','shadmi','mizra','israel','efihapira@gmail.com', 'female','12-01-90'
+EXEC USP_Regisration 'efrat','eFgcg54','yossef','shadmi','mizra','israel','efihapira@gmail.com', 'female','12-01-90'
 
 --QA test for register procedure- strong password
 	--small
@@ -24,7 +24,7 @@ EXEC USP_Regisration 'EFRAAT19','PASSwORD2','Liat','shadmi','mizra','israel','ef
 EXEC USP_Regisration 'EfRAAT19','EfRAAT19','Liat','shadmi','mizra','israel','efihapira@gmail.com', 'female','12-01-90'
 
 --QA test for register procedure- same EMAIL
-EXEC USP_Regisration 'Liat','eFgcg54','Liat','shadmi','mizra','israel','efishapira@gmail.com', 'female','12-01-90'
+EXEC USP_Regisration 'yossef','eFgcg54','Liat','shadmi','mizra','israel','efishapira@gmail.com', 'female','12-01-90'
 
 --QA test for register procedure- EMAIL format
 EXEC USP_Regisration 'Liat','eFgcg54','Liat','shadmi','mizra','israel','efishapiragmail.com', 'female','12-01-90'
